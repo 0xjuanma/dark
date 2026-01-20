@@ -1,0 +1,46 @@
+{
+  "name": "dark-theme-collection",
+  "displayName": "Dark: One Dark Theme to Rule Them All",
+  "description": "A collection of high-contrast dark themes with vibrant neon accents",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-neon-theme.json"
+      },
+      {
+        "label": "Dark Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-purple-theme.json"
+      },
+      {
+        "label": "Dark Lime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-lime-theme.json"
+      },
+      {
+        "label": "Dark Sunset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-sunset-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xjuanma/dark"
+  },
+  "publisher": "0xjuanma",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  }
+}
