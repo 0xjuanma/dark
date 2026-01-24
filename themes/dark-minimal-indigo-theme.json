@@ -1,14 +1,14 @@
 {
-	"name": "Dark Minimal",
+	"name": "0xDark Minimal Indigo",
 	"type": "dark",
 	"colors": {
 		"activityBar.activeBackground": "#1a1a1a",
-		"activityBar.activeBorder": "#708090",
+		"activityBar.activeBorder": "#6B5BFF",
 		"activityBar.background": "#000000",
 		"activityBar.border": "#1a1a1a",
 		"activityBar.foreground": "#cccccc",
-		"activityBarBadge.background": "#708090",
-		"badge.foreground": "#ffffff",
+		"activityBarBadge.background": "#FFD166",
+		"badge.foreground": "#000000",
 		"button.background": "#1a1a1a",
 		"button.foreground": "#ffffff",
 		"debugToolBar.background": "#000000",
@@ -24,7 +24,7 @@
 		"editorIndentGuide.background": "#1a1a1a",
 		"input.background": "#000000",
 		"input.foreground": "#ffffff",
-		"input.placeholderForeground": "#666666",
+		"input.placeholderForeground": "#555555",
 		"list.dropBackground": "#1a1a1a",
 		"menu.background": "#0d0d0d",
 		"menu.foreground": "#cccccc",
@@ -42,8 +42,8 @@
 		"statusBar.debuggingBackground": "#000000",
 		"statusBar.debuggingForeground": "#1a1a1a",
 		"statusBar.foreground": "#000000",
-		"statusBarItem.remoteBackground": "#708090",
-		"statusBarItem.remoteForeground": "#000000",
+		"statusBarItem.remoteBackground": "#6B5BFF",
+		"statusBarItem.remoteForeground": "#ffffff",
 		"terminal.foreground": "#cccccc"
 	},
 	"tokenColors": [
@@ -51,7 +51,7 @@
 			"name": "Comment",
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#666666",
+				"foreground": "#555555",
 				"fontStyle": "italic"
 			}
 		},
@@ -59,28 +59,28 @@
 			"name": "String",
 			"scope": ["string", "punctuation.definition.string"],
 			"settings": {
-				"foreground": "#888888"
+				"foreground": "#FFD166"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": ["constant.numeric"],
 			"settings": {
-				"foreground": "#999999"
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": ["constant.language"],
 			"settings": {
-				"foreground": "#999999"
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
 			"name": "User-defined constant",
 			"scope": ["constant.character", "constant.other"],
 			"settings": {
-				"foreground": "#999999"
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
@@ -94,28 +94,28 @@
 			"name": "Keyword",
 			"scope": ["keyword"],
 			"settings": {
-				"foreground": "#aaaaaa"
+				"foreground": "#6B5BFF"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": ["storage"],
 			"settings": {
-				"foreground": "#aaaaaa"
+				"foreground": "#6B5BFF"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": ["storage.type"],
 			"settings": {
-				"foreground": "#aaaaaa"
+				"foreground": "#6B5BFF"
 			}
 		},
 		{
 			"name": "Class name",
 			"scope": ["entity.name.class"],
 			"settings": {
-				"foreground": "#bbbbbb"
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -129,28 +129,28 @@
 			"name": "Function name",
 			"scope": ["entity.name.function"],
 			"settings": {
-				"foreground": "#bbbbbb"
+				"foreground": "#dddddd"
 			}
 		},
 		{
 			"name": "Function argument",
 			"scope": ["variable.parameter"],
 			"settings": {
-				"foreground": "#cccccc"
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
 			"name": "Tag name",
 			"scope": ["entity.name.tag"],
 			"settings": {
-				"foreground": "#aaaaaa"
+				"foreground": "#6B5BFF"
 			}
 		},
 		{
 			"name": "Tag attribute",
 			"scope": ["entity.other.attribute-name"],
 			"settings": {
-				"foreground": "#bbbbbb"
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
@@ -164,7 +164,7 @@
 			"name": "Library constant",
 			"scope": ["support.constant"],
 			"settings": {
-				"foreground": "#999999"
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
@@ -182,58 +182,113 @@
 			}
 		},
 		{
+			"name": "Punctuation",
+			"scope": ["punctuation"],
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
 			"name": "Invalid",
 			"scope": ["invalid"],
 			"settings": {
-				"foreground": "#FF6B6B"
+				"foreground": "#FF6666"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": ["invalid.deprecated"],
 			"settings": {
-				"foreground": "#FF6B6B"
+				"foreground": "#FF6666"
 			}
 		},
 		{
 			"name": "JSON String",
 			"scope": ["meta.structure.dictionary.json string.quoted.double.json"],
 			"settings": {
-				"foreground": "#888888"
+				"foreground": "#FFD166"
+			}
+		},
+		{
+			"name": "JSON Key",
+			"scope": ["support.type.property-name.json"],
+			"settings": {
+				"foreground": "#aaaaaa"
 			}
 		},
 		{
 			"name": "diff.header",
 			"scope": ["meta.diff", "meta.diff.header"],
 			"settings": {
-				"foreground": "#aaaaaa"
+				"foreground": "#888888"
 			}
 		},
 		{
 			"name": "diff.deleted",
 			"scope": ["markup.deleted"],
 			"settings": {
-				"foreground": "#FF6B6B"
+				"foreground": "#FF6666"
 			}
 		},
 		{
 			"name": "diff.inserted",
 			"scope": ["markup.inserted"],
 			"settings": {
-				"foreground": "#77DD77"
+				"foreground": "#88CC88"
 			}
 		},
 		{
 			"name": "diff.changed",
 			"scope": ["markup.changed"],
 			"settings": {
-				"foreground": "#FFFF88"
+				"foreground": "#FFD166"
+			}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": [
+				"markdown.heading",
+				"markup.heading | markup.heading entity.name",
+				"markup.heading.markdown punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#6B5BFF"
+			}
+		},
+		{
+			"name": "Markup - Italic",
+			"scope": ["markup.italic"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#aaaaaa"
+			}
+		},
+		{
+			"name": "Markup - Bold",
+			"scope": ["markup.bold", "markup.bold string"],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#bbbbbb"
+			}
+		},
+		{
+			"name": "Markdown - Link",
+			"scope": ["string.other.link.title.markdown"],
+			"settings": {
+				"foreground": "#FFD166"
+			}
+		},
+		{
+			"name": "Markdown - Code",
+			"scope": ["text.html.markdown markup.inline.raw.markdown"],
+			"settings": {
+				"foreground": "#888888"
 			}
 		},
 		{
 			"scope": "constant.numeric.line-number.find-in-files - match",
 			"settings": {
-				"foreground": "#666666"
+				"foreground": "#555555"
 			}
 		},
 		{
