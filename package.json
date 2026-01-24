@@ -1,18 +1,24 @@
 {
   "name": "the-one-dark-theme-collection",
   "displayName": "One Dark Theme to Rule Them All",
-  "description": "Six stunning high-contrast dark themes for VS Code & Cursor. From vibrant neon (Neon, Purple, Lime, Sunset) to minimalist (Mono, Minimal) - find your perfect dark coding experience. Professional, readable, and customizable.",
-  "version": "0.2.0",
+  "description": "Ten stunning dark themes for VS Code & Cursor. High-contrast vibrant (Neon, Purple, Lime, Sunset), monochromatic (Mono), soft low-contrast (Ocean, Rose), and minimal with accent pops (Coral, Indigo, Crimson).",
+  "version": "0.4.0",
   "keywords": [
     "dark",
     "theme",
     "neon",
     "high contrast",
+    "low contrast",
     "minimal",
     "mono",
     "purple",
     "lime",
     "sunset",
+    "ocean",
+    "rose",
+    "coral",
+    "indigo",
+    "crimson",
     "minimalist",
     "professional",
     "coding"
@@ -26,34 +32,54 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Neon",
+        "label": "0xDark Neon",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-neon-theme.json"
       },
       {
-        "label": "Dark Purple",
+        "label": "0xDark Purple",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-purple-theme.json"
       },
       {
-        "label": "Dark Lime",
+        "label": "0xDark Lime",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-lime-theme.json"
       },
       {
-        "label": "Dark Sunset",
+        "label": "0xDark Sunset",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-sunset-theme.json"
       },
       {
-        "label": "Dark Mono",
+        "label": "0xDark Mono",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-mono-theme.json"
       },
       {
-        "label": "Dark Minimal",
+        "label": "0xDark Ocean",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-minimal-theme.json"
+        "path": "./themes/dark-ocean-theme.json"
+      },
+      {
+        "label": "0xDark Rose",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-rose-theme.json"
+      },
+      {
+        "label": "0xDark Minimal Coral",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-minimal-coral-theme.json"
+      },
+      {
+        "label": "0xDark Minimal Indigo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-minimal-indigo-theme.json"
+      },
+      {
+        "label": "0xDark Minimal Crimson",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-minimal-crimson-theme.json"
       }
     ]
   },
@@ -69,9 +95,9 @@
   },
   "badges": [
     {
-      "url": "https://img.shields.io/badge/themes-6-brightgreen",
+      "url": "https://img.shields.io/badge/themes-10-brightgreen",
       "href": "https://marketplace.visualstudio.com/items?itemName=0xjuanma.the-one-dark-theme-collection",
-      "description": "6 Dark Themes"
+      "description": "10 Dark Themes"
     }
   ]
 }
