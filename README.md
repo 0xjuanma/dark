@@ -27,16 +27,15 @@ A collection of ten carefully crafted dark themes for VS Code & Cursor: one set 
 
 ## Installation
 
+Requires [Node.js](https://nodejs.org/).
+
 ```bash
-# Build
 npm install -g @vscode/vsce
 vsce package
-
-# Install
-# VS Code: Cmd+Shift+P → "Extensions: Install from VSIX..." → select .vsix file
-# Or via terminal:
-code --install-extension the-one-dark-theme-collection-0.4.0.vsix
+code --install-extension *.vsix
 ```
+
+Or: `Cmd+Shift+P` → `Extensions: Install from VSIX...` → select the generated `.vsix` file.
 
 ## Usage
 
