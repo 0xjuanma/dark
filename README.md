@@ -28,8 +28,8 @@ A collection of ten carefully crafted dark themes for VS Code & Cursor: one set 
 ## Installation
 
 ```bash
-curl -LO https://github.com/0xjuanma/dark/raw/main/the-one-dark-theme-collection-0.4.0.vsix
-code --install-extension the-one-dark-theme-collection-0.4.0.vsix
+curl -LO https://github.com/0xjuanma/dark/raw/main/the-one-dark-theme-collection-0.5.0.vsix
+code --install-extension the-one-dark-theme-collection-0.5.0.vsix
 ```
 
 ## Build from Source
